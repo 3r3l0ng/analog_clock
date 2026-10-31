@@ -1,0 +1,128 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  border: 1px solid black;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.pin {
+  border: 1px solid black;
+  height: 5px;
+  width: 2px;
+  background-color: black;
+  position: absolute;
+  /* transform: rotateZ(6deg) translateY(-120px); */
+}
+
+.nums {
+  border: 0px solid rgba(0, 0, 0, 0.036);
+  height: 100%;
+  width: 30px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.nums .up,
+.nums .down {
+  border: 0px solid red;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sec {
+  border: 0px solid black;
+  height: 100%;
+  width: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.sec .up {
+  background-color: black;
+  height: 43%;
+  width: 2px;
+}
+
+.sec .down {
+  background-color: white;
+  height: 43%;
+}
+
+.min {
+  border: 0px solid black;
+  height: 100%;
+  width: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.min .up {
+  background-color: black;
+  height: 40%;
+  width: 4px;
+}
+
+.min .down {
+  background-color: white;
+  height: 40%;
+}
+
+.hour {
+  border: 0px solid black;
+  height: 100%;
+  width: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.hour .up {
+  background-color: black;
+  height: 37%;
+  width: 6px;
+}
+
+.hour .down {
+  background-color: white;
+  height: 37%;
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  background-color: black;
+}
